@@ -1,1 +1,20 @@
-The config file
+exchange:
+  name: "bybit"
+  testnet: true
+
+trading:
+  symbol: "BTCUSDT"
+  timeframe: "5m"
+
+risk:
+  initial_capital: 10000
+  risk_per_trade_pct: 1.0
+  max_daily_loss_pct: 3.0
+  max_drawdown_pct: 10.0
+
+strategy:
+  ema_fast: 50
+  ema_slow: 200
+  rsi_period: 14
+
+mode: "backtest"
