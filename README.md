@@ -1,0 +1,1 @@
+Full project README and plan - see previous context or I can update
