@@ -54,7 +54,7 @@ with st.sidebar:
         st.stop()
     st.divider()
 
- tab1, tab2, tab3, tab4, tab5 = st.tabs(["📊 Dashboard", "🧪 Backtesting", "📋 Trade Ledger", "🧠 Grok Reflections", "⚙️ Strategy & Config"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["📊 Dashboard", "🧪 Backtesting", "📋 Trade Ledger", "🧠 Grok Reflections", "⚙️ Strategy & Config"])
 
 with tab1:
     st.markdown('<p class="section-header">📊 Dashboard</p>', unsafe_allow_html=True)
